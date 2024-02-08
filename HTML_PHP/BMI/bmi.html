@@ -1,0 +1,47 @@
+﻿<html>
+<head>
+	<label for="convert-select">Choix de l'unité:</label>
+
+
+
+	<select name="Converter" id="convert-select">
+		<option value="">--Unité de conversion--</option>
+		<option value="imc">IMC</option>
+		<option value="poids_idéal">Poids idéal</option>
+		<option value="masse">Masse</option>
+	</select>
+
+	<br>
+	<br>
+	<div id="imc-section">
+		<title>Calculateur IMC</title>
+		<form action="bmi-action.php">
+			Votre taille: <input type="textSize" name="size"><br>
+			Votre poids: <input type="textWeight" name="weight"><br>
+
+			<br>
+			<input type="submit" value="Calculer">
+		</form>
+	</div>
+
+<div id = Poids_ideal-section>
+	<title>Calculateur poids ideal</title>
+	<form action = bmi-action.php>
+		Votre taille: <input type="textSize" name="sizeIdeal"><br>
+		Votre poids: <input type="textWeight" name="weightIdeal"><br>
+
+		<br>
+		<input type="submit" value="Calculer">
+	</form>
+</div>
+<div id="Masse-section">
+	<title>Caculateur de la masse</title>
+	<form action = bmi-action.php>
+		La densité: <input type="textDensity" name="density"><br>
+		Le Volume: <input type="textVolume" name="volume"><br>
+
+		<br>
+		<input type="submit" value="Calculer">
+	</form>
+</div>
+</html>

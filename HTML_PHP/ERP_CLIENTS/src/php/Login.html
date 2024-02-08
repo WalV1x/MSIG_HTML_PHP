@@ -1,0 +1,53 @@
+<!-- https://code-garage.fr/blog/comment-resoudre-les-problemes-daccents-dans-vos-pages-web/ -->
+<head>
+    <meta charset="utf8">
+</head>
+
+<title>Connexion à l'interface</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        text-align: center;
+        padding: 50px;
+    }
+
+    h2 {
+        margin-bottom: 30px;
+
+    }
+
+    form {
+        max-width: 300px;
+        margin: 0 auto;
+    }
+
+    input {
+        width: 100%;
+        padding: 10px;
+        margin: 10px 0;
+    }
+    button {
+        padding: 10px;
+        background-color: #4caf50;
+        color: white;
+        border: none;
+        cursor: pointer;
+    }
+</style>
+<body>
+
+<h2>Connexion à l'interface</h2>
+</body>
+<form action="Login.php" method="post">
+    <label for="username">Nom d'utilisateur:</label>
+    <input type="text" id="username" name="username" required>
+    <br>
+    <label for="password">Mot de passe:</label>
+    <input type="password" id="password" name="password" required>
+    <br>
+    <button type="submit">Se connecter</button>
+
+    </form>
+</body>
+</html>

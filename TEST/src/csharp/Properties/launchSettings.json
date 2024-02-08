@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "csharp": {
+      "commandName": "Project",
+      "workingDirectory": "C:\\Users\\pt50cuy\\Desktop\\HTML_PHP\\3. WEB\\TEST\\src\\csharp"
+    }
+  }
+}

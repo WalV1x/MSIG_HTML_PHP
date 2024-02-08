@@ -1,0 +1,6 @@
+docker network create web
+
+cd ANY_PROJECT_DIRECTORY
+docker run -itd --name web --net web --mount type=bind,src=%cd%,dst=/var/www/html/ -p 8080:80 php:8.1-apache
+docker exec –it web docker-php-ext-install pdo pdo_mysql mysqli
+docker exec –it web apachectl graceful
